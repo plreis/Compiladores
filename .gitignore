@@ -1,0 +1,29 @@
+# Compilação/artefatos
+/bin/
+/out/
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.log
+*.tmp
+*.swp
+~$*
+
