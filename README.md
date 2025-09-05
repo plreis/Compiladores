@@ -2,7 +2,7 @@
 
 Este projeto implementa um analisador léxico para a linguagem GYH em Java, com foco em:
 
-- Tabelas (Hashtable) para reconhecimento de palavras-chave e tokens simples (sem `switch`).
+- Tabelas (Hashtable) para reconhecimento de palavras-chave e tokens simples.
 - Atributos encapsulados (privados) com getters/setters onde aplicável.
 - Rastreamento preciso de posição: cada token carrega a linha e a coluna do seu início.
 - Mensagens de erro léxico com linha e coluna.
@@ -68,19 +68,12 @@ Saída típica (exemplo abreviado):
 
 ## Encapsulamento e mudanças aplicadas
 
-- Todos os atributos relevantes foram tornados privados.
-- `Token`: agora possui `linha` e `coluna` com getters/setters; `toString()` exibe `<Tipo,Lexema,@linha:coluna>`.
+-   atributos privados.
+- `Token`: possui `linha` e `coluna` com getters/setters; `toString()` exibe `<Tipo,Lexema,@linha:coluna>`.
 - `LeitorArquivo`: fornece `getLinhaAtual()` e `getColunaAtual()`; adiciona `devolverCaracter(int)` para pushback.
 - `AnalisadorLexico`: usa `Hashtable` para lookup (palavras reservadas e tokens simples); cria tokens com posição.
 - `Main`: trata exceções léxicas e fecha o arquivo ao final.
 
-## Próximos passos sugeridos
 
-- Automatizar testes unitários para o léxico (happy path + erros comuns).
-- Remover ou formalizar comentários `#` na gramática, se necessário.
-- Integrar com o analisador sintático em seguida.
 
-## Licença
-
-Sem licença definida. Adicione uma se necessário.
 

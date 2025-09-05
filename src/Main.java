@@ -2,7 +2,7 @@ public class Main {
 
 	
 	
-	// o analisador lexico para ele funcionar precisamos enviar o codigo fonte, logo precisamos abrir o codigo fonte.
+	//Criando instancia do arquivo.
 
 	
 	public static void main(String[] args) {
