@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class LeitorArquivo {
 
-    // atributos privados + getters/setters
+
     private BufferedReader br;
     private Integer pushbackChar = null; // 1-char pushback
     private int linha = 1;               // 1-based
@@ -37,7 +37,7 @@ public class LeitorArquivo {
             coluna = 0;
         } else if (c == '\r') {
             // em Windows (CRLF), consideramos nova linha apenas no '\n' para não contar em dobro
-            // portanto, não alteramos linha/coluna aqui
+            
         } else {
             coluna++;
         }
