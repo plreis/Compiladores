@@ -2,9 +2,8 @@ public class Main {
 
 	
 	
-	//Criando instancia do arquivo.
+	//Criando instancia do analisador lexico, passando como parametro o nome do arquivo.
 
-	
 	public static void main(String[] args) {
 
 		AnalisadorLexico alex = null;
