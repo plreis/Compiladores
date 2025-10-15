@@ -1,7 +1,6 @@
 public class Main {
 
 	
-	
 	//Criando instancia do analisador lexico, passando como parametro o nome do arquivo.
 
 	public static void main(String[] args) {
