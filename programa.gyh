@@ -1,36 +1,23 @@
-#ERRO LEXICO PARA ENTO
+#Programa nao tem erro lexico
+
 [DECLARAR]
 
-num1:INTEGER
-num2: INTEGER
-num3:INTEGER
-aux: REAL
+fatorial:INTEGER
+parametro: INTEGER
+
 
 [PROGRAMA]
-# Coloca 3 números em ordem crescente
-LER num1
-LER num2
-LER num3
-SE num1 > num2 ENTAO
-   INICIO
-      aux := 2. 4+3-4+5-6*5-1.6
-      num2 := num1
-      num1 := aux
-   FINAL 
-SE num1 > num3 E num2 <= num4 E num1 > 3 OU num2 != num4 ENTAO
-   INICIO
-      aux := num3
-      num3 := num1
-      num1 := aux
-   FINAL
-SE num2 > num3 ENTAO
-   INICIO
-      aux:= num3
-      num3:= num2
-     num2:=aux
-   FINAL
-IMPRIMIR "Acabou o programa"
-IMPRIMIR num1
-IMPRIMIR num2
-IMPRIMIR num3
+
+# Calcula o fatorial de um número inteiro
+LER parametro
+fatorial := parametro 
+SE parametro == 0 ENTAO fatorial := 1
+ENQTO parametro > 1
+INICIO
+fatorial := fatorial * (parametro - 1) 
+parametro := parametro - 1
+FINAL
+IMPRIMIR fatorial
+IMPRIMIR "Oi"
+IMPRIMIR 1
 
