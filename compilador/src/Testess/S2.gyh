@@ -1,0 +1,10 @@
+# Erro sintático: ENQTO sem parênteses (a gramática exige expressão relacional direta)
+[DECLARAR]
+cont : INTEGER
+[PROGRAMA]
+INICIO
+    cont := 0
+    ENQTO (cont < 10) ENTAO
+        IMPRIMIR cont
+FINAL
+

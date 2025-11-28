@@ -1,0 +1,7 @@
+# Erro semântico: variável usada sem ser declarada
+[DECLARAR]
+y : INTEGER
+[PROGRAMA]
+LER x
+IMPRIMIR x
+

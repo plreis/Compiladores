@@ -1,0 +1,6 @@
+# Erro léxico:  caractere de desconhecido
+[DECLARAR]
+msg : INTEGER
+[PROGRAMA]
+IMPRIMIR "Texto com erro x" \
+

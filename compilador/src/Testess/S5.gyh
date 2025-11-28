@@ -1,0 +1,12 @@
+# Erro sintático: Subalgoritmo não fechado corretamente
+[DECLARAR]
+x : INTEGER
+[PROGRAMA]
+INICIO
+    LER x
+    SE x > 5 ENTAO
+        INICIO
+            IMPRIMIR "Maior que 5"
+        # faltou FINAL do subalgoritmo interno
+FINAL
+

@@ -1,0 +1,7 @@
+# Erro léxico: caractere especial não permitido dentro de identificador
+[DECLARAR]
+preço$total : REAL
+[PROGRAMA]
+preço$total := 25.0
+IMPRIMIR preço$total
+

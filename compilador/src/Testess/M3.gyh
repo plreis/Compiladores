@@ -1,0 +1,7 @@
+# Erro semântico: operação entre tipos incompatíveis
+[DECLARAR]
+idade : INTEGER
+nome : REAL
+[PROGRAMA]
+idade := idade + nome
+

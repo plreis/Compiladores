@@ -1,0 +1,8 @@
+# Erro sintático: expressão aritmética com operador no início
+[DECLARAR]
+a : INTEGER
+b : INTEGER
+[PROGRAMA]
+a := * b + 2
+IMPRIMIR a
+

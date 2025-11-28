@@ -1,0 +1,7 @@
+# Erro semântico: variável não declarada
+[DECLARAR]
+resultado : REAL
+[PROGRAMA]
+resultado := a / b
+IMPRIMIR resultado
+

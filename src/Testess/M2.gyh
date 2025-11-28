@@ -1,0 +1,7 @@
+# Erro semântico: variável de tipo REAL recebendo cadeia de caracteres
+[DECLARAR]
+nota : REAL
+[PROGRAMA]
+nota := "dez"
+IMPRIMIR nota
+

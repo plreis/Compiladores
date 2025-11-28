@@ -1,0 +1,7 @@
+# Erro léxico: variável começa com número (inválido)
+[DECLARAR]
+1valor : REAL
+[PROGRAMA]
+1valor := 10.5
+IMPRIMIR 1valor
+

@@ -1,0 +1,7 @@
+# Erro léxico: operador inválido “=>” (não pertence à gramática)
+[DECLARAR]
+a : INTEGER
+b : INTEGER
+[PROGRAMA]
+a => b
+

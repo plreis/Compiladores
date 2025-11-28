@@ -1,0 +1,6 @@
+# Erro léxico: palavra-chave escrita parcialmente (token inválido)
+[DECLARAR]
+x : INTEGER
+[PROGRA]
+IMPRIMIR x
+
