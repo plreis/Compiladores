@@ -33,3 +33,24 @@ bin/
 *.exe
 programa_gerado.c
 src/programa_gerado.c
+
+# Compilação/artefatos (Remote)
+/out/
+/target/
+
+# IDEs (Remote)
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.tmp
+*.swp
+~$*
+
