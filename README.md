@@ -209,22 +209,21 @@ IMPRIMIR "Cálculo concluído"
 
 Este projeto atende completamente aos seguintes critérios de avaliação:
 
-### Analisador Léxico (3,25 pontos)
+### Analisador Léxico 
 - ✅ Reconhecimento de todos os tokens da especificação
 - ✅ Tratamento de comentários e espaços em branco
 - ✅ Mensagens de erro com localização
 
-### Analisador Sintático (5,75 pontos)
+### Analisador Sintático 
 - ✅ Todas as regras da gramática implementadas
 - ✅ Eliminação correta de recursão à esquerda
 - ✅ Validação completa da estrutura do programa
 
-### Código em Geral (0,60 + 0,10 bônus)
+### Código em Geral 
 - ✅ Organização clara e coerente
 - ✅ Entrada/saída bem estruturada
 - ✅ Código bem comentado (bônus)
 
-**Pontuação Total: 9,70/9,60 (101%)**
 
 ## 👨‍💻 Autor
 
